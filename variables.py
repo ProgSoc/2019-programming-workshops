@@ -22,8 +22,17 @@ print("10 * 20 =", num1 * num2)
 print("10 / 20 =", num1 / num2)
 # Modulus, gives remainder of the divided values
 print("10 % 20 =", num1 % num2)
+
 # Returns True if the two values are equal (otherwise returns False)
-print("10 - 20 =", num1 == num2)
+print("Is 10 == 20 ?", num1 == num2)
+# Returns True if left is greater than right (otherwise returns False)
+print("Is 10 > 20 ?", num1 > num2)
+# Returns True if left is less than right (otherwise returns False)
+print("Is 10 < 20 ?", num1 < num2)
+# Returns True if left is greater than or equal to right (otherwise returns False)
+print("Is 10 >= 20 ?", num1 >= num2)
+# Returns True if left is less than or equal to right (otherwise returns False)
+print("Is 10 <= 20 ?", num1 <= num2)
 
 # TypeError: cannot concatenate 'str' and 'int' objects
 # print('I am ' + age + ' years old')

@@ -36,3 +36,21 @@ print("Is 10 <= 20 ?", num1 <= num2)
 
 # TypeError: cannot concatenate 'str' and 'int' objects
 # print('I am ' + age + ' years old')
+
+firstYear = False
+if firstYear == True:
+    print "I am a first year"
+else:
+    print "I am not a first year!"
+
+# When dealing with boolean values, we can also just use the variable without using == True or == False
+if firstYear:
+    print "I am a first year"
+else:
+    print "I am not a first year!"
+    
+# We can compare other values such as integers
+if 10 < 20:
+    print "10 is less than 20!"
+else:
+    print "The math just doesn't add up...."

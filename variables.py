@@ -54,3 +54,21 @@ if 10 < 20:
     print "10 is less than 20!"
 else:
     print "The math just doesn't add up...."
+
+if meal == "breakfast":
+    print "Time to eat breakfast!"
+else if meal == "lunch":
+    print "It is lunch time"
+else if meal == "dinner":
+    print "I am ready for dinner"
+else:
+    print "I feel like a snack"
+
+
+#
+# https://codebunk.com/b/151308735/
+#
+# 
+# https://codebunk.com/b/474312295
+# 
+

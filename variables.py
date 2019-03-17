@@ -76,6 +76,14 @@ while hungry is True:
 for laps in range(10):
     print "Running 10 laps... Lap number", (laps+1)
 
+# improve this function? maybe include operators/conditionals? or keep it simple...???
+def makeBookshelf():
+    print "Putting in the base"
+    numberOfSides = 2
+    print "Connecting the", numberOfSides, "sides together"
+    print "Putting in some shelves..."
+    print "And the top is on! MISSION COMPLETE..."
+
 #
 # https://codebunk.com/b/151308735/
 #

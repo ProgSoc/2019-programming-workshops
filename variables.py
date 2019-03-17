@@ -57,13 +57,24 @@ else:
 
 if meal == "breakfast":
     print "Time to eat breakfast!"
-else if meal == "lunch":
+elif meal == "lunch":
     print "It is lunch time"
-else if meal == "dinner":
+elif meal == "dinner":
     print "I am ready for dinner"
 else:
     print "I feel like a snack"
 
+# infinite loop... be careful!
+while hungry is True:
+    print "Om nom nom..."
+
+# this loop will stop after the first print
+while hungry is True:
+    print "Eating some pizza..."
+    hungry = False
+
+for laps in range(10):
+    print "Running 10 laps... Lap number", (laps+1)
 
 #
 # https://codebunk.com/b/151308735/

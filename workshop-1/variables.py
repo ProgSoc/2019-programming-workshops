@@ -13,3 +13,8 @@ print('Am I a student?', isStudent)
 num1 = 10
 num2 = 20
 print("10 + 20 =", num1 + num2)
+
+# ACTIVITY TIME! (3 min)
+# make a quick variable printer
+# this one is going to take a trainName, trainTime, platform
+# write whatever makes sense to you around the variable names :)

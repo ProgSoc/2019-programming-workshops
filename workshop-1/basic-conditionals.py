@@ -27,3 +27,9 @@ elif meal == "dinner":
     print("I am ready for dinner")
 else:
     print("I feel like a snack")
+
+# ACTIVITY TIME!! (5 min max)
+
+# make a conditional that greets you - yes, you! - depending on what time of day it is (morning, afternoon, evening)
+# don't forget to print it like this!
+print("Good " + timeOfDay + ", " + yourNameVariable)

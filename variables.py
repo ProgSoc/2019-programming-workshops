@@ -39,50 +39,50 @@ print("Is 10 <= 20 ?", num1 <= num2)
 
 firstYear = False
 if firstYear == True:
-    print "I am a first year"
+    print("I am a first year")
 else:
-    print "I am not a first year!"
+    print("I am not a first year!")
 
 # When dealing with boolean values, we can also just use the variable without using == True or == False
 if firstYear:
-    print "I am a first year"
+    print("I am a first year")
 else:
-    print "I am not a first year!"
+    print("I am not a first year!")
     
 # We can compare other values such as integers
 if 10 < 20:
-    print "10 is less than 20!"
+    print("10 is less than 20!")
 else:
     print "The math just doesn't add up...."
 
 if meal == "breakfast":
-    print "Time to eat breakfast!"
+    print("Time to eat breakfast!")
 elif meal == "lunch":
-    print "It is lunch time"
+    print("It is lunch time")
 elif meal == "dinner":
-    print "I am ready for dinner"
+    print("I am ready for dinner")
 else:
-    print "I feel like a snack"
+    print("I feel like a snack")
 
 # infinite loop... be careful!
 while hungry is True:
-    print "Om nom nom..."
+    print("Om nom nom...")
 
 # this loop will stop after the first print
 while hungry is True:
-    print "Eating some pizza..."
+    print("Eating some pizza...")
     hungry = False
 
 for laps in range(10):
-    print "Running 10 laps... Lap number", (laps+1)
+    print("Running 10 laps... Lap number", (laps+1))
 
 # improve this function? maybe include operators/conditionals? or keep it simple...???
 def makeBookshelf():
-    print "Putting in the base"
+    print("Putting in the base")
     numberOfSides = 2
-    print "Connecting the", numberOfSides, "sides together"
-    print "Putting in some shelves..."
-    print "And the top is on! MISSION COMPLETE..."
+    print("Connecting the", numberOfSides, "sides together")
+    print("Putting in some shelves...")
+    print("And the top is on! MISSION COMPLETE...")
 
 #
 # https://codebunk.com/b/151308735/

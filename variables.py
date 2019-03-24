@@ -76,13 +76,13 @@ while hungry is True:
 for laps in range(10):
     print("Running 10 laps... Lap number", (laps+1))
 
-# improve this function? maybe include operators/conditionals? or keep it simple...???
-def makeBookshelf():
-    print("Putting in the base")
-    numberOfSides = 2
-    print("Connecting the", numberOfSides, "sides together")
-    print("Putting in some shelves...")
-    print("And the top is on! MISSION COMPLETE...")
+# returns the power of two numbers using the in-built pow() function
+def powerOf(num1, num2):
+    return pow(num1,num2)
+
+# returns a full name, given the parameters first name and last name
+def getFullName(firstName, lastName):
+    return firstName + " " + lastName
 
 #
 # https://codebunk.com/b/151308735/
